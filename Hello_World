@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 25 20:44:48 2022
+
+@author: Danny Ortega
+"""
+
+#Mi primero hola mundo
+print("Hola mundo")
+
+def sumar(num1, num2):
+    suma = num1 + num2
+    print("\t",suma)
+    
+sumar(1,2)

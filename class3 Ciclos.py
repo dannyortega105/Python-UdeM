@@ -22,9 +22,8 @@ def promedio():
     promedio = suma/(i + 1)
     print(f"El promedio de los numeros es: {promedio}\n")
 
-def factorial():
+def factorial(num):
     factorial = 1
-    num = int(input("Ingrese el numero: "))
     if num == 0:
         print(f"El factorial de {num} es : 1")
     else:
@@ -43,7 +42,8 @@ def inicio():
         opciones = input("Elige una opcion: ")
         
         if opciones == "F":
-            factorial()
+            numFac = int(input("Escribe el numero al que quieres sacarle el factorial: "))
+            factorial(numFac)
         elif opciones == "P":
             promedio()
         elif opciones == "S":

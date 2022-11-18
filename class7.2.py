@@ -37,7 +37,7 @@ def inicio():
     
     opciones= 0
     while opciones != "S":
-        print("BIENVENIDO, ESTA ES LA LISTA DE OPCIONES\n")
+        print("BIENVENIDO, ESTA ES LA LISTA DE OPCIONES\n")                                                           
         print("[A] Agregar", "[C] Consultar", "[M] Maximo y Minimo", "[S] Salir")
         opciones = input("Elige una opcion: ")
         
@@ -56,7 +56,7 @@ def inicio():
             print(consultar())
         elif opciones == "M":
             ciudad = input("Digite la ciudad que desea ver el maximo: ")
-            matriz = diccionario[ciudad]
+            matriz = diccionario[ciudad]                          
             for i in matriz:
                 print(i)
             maximo(matriz)
